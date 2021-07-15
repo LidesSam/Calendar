@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./calendarStyle.css">
+    <script src="./calendar.js"></script>
+</head>
+
+<body onload="init()">
+
+    <div id="calendarContainer">
+        <h5>calendar</h5>
+        <br/>
+        <div id="yearPicker">
+            <button onclick="previousYear()">
+                prev </button>
+            <span id="currentYear">year Picker</span>
+            <button onclick="nextYear()">next </button>
+        </div>
+
+        <br/>
+        <div id="monthPicker">
+            <button onclick="previousMonth()">
+                prev </button>
+            <span id="currentMonth">monthPicker</span>
+
+            <button onclick="nextMonth()"> next </button>
+        </div>
+        <br/>
+        <div id="dayPicker">
+            days
+
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
